@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 mangaName = "naruto"			# enter the part in []: http://www.mangapanda.com/[naruto]/618/2
 saveMangaFolder = "/home/username/Desktop/MangaCrawler/Naruto"	#Save path on your system
-mangaChapter = 700												#Last chapter to be crawled
+mangaChapter = 700						#Last chapter to be crawled
 
 def imgLink (mangaChapter, mangaSheet):
 	mangaPage = "http://www.mangapanda.com/" + mangaName + "/" + str(mangaChapter) + "/" + str(mangaSheet)
